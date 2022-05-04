@@ -58,7 +58,9 @@ Precompiled image(s) of firmware examples are available in the /builds directory
 ### Environment Setup 
 To compile and build the firmware for the Eagle, the Arduino environment must be set up like so.
 Install Arduino (version 1.8.19) :  https://www.arduino.cc/en/software
+
 Ensure that arduino is installed through the arduino website and not through Windows app store.
+
 Install Teensyduino (version 1.56)  : https://www.pjrc.com/teensy/td_download.html  
 Navigate to the basic example found in source/EagleSDK_basic_example/EagleSDK_basic_example.ino 
 
