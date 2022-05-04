@@ -17,8 +17,8 @@ The package contains some example with source files and builds
 IrisControls4.exe, located in the IrisControls4 folder of this repo, is a Windows-based user-interface application used by Iris Dynamics devices to present controls and data over USB.
 Running the .exe will open an IrisControls app window, GUI elements will be populated by the firmware on the Eagle Controller once it is connected via USB. 
 
-Other prebuilt examples can be loaded by following the instructions in [[#Using Pre-Built Firmware]]
-For modifying the firmware, follow the instructions in [[#Environment Setup]], and find examples projects in the source folder. 
+Other prebuilt examples can be loaded by following the instructions in "Using Pre-Built Firmware" 
+For modifying the firmware, follow the instructions in "Environment Setup", and find examples projects in the source folder. 
 
 ## Connecting to an Eagle
 ### The USB connectors 
@@ -26,7 +26,7 @@ Currently, only USB Serial is enabled for PC-Eagle communications.  Examples of 
 
 To connect from the Eagle to a PC you will need to use either a USB micro or a USB B cable. Ensure that they are data cables and not charging charging cables.
 USB micro: powers & grounds Eagle
-USB B	 : does not power & ground Eagle, must be powered using the [[#Power Lugs]]
+USB B	 : does not power & ground Eagle, must be powered using the "Power Lugs"
 
 The PC and Eagle ground must similar for USB communications to work. Only one connection should be used at once. Both route to the same USB port on the Eagle. 
 
@@ -38,7 +38,7 @@ The motors in some circumstances will act like generators, this can result in cu
 
 ## Connecting to a Motor
 
-### The RJ45 Connectors (Motor to Eagle) ==
+### The RJ45 Connectors (Motor to Eagle)
 Connect the port on the Eagle marked "1" and/or "2" on the Eagle case to the motor(s) (These numbers signify the UART channel being used)
 If using a power supply of 24V, the fused screw terminals on the Eagle can be used to provide power to the motors(s).
 The motors can also be powered directly using a 24V-48V power supply, preferrably through a fuse.
