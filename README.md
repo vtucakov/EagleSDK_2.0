@@ -1,6 +1,6 @@
 # Introduction
 To clone this repo with all included submodules use git bash command
-git clone https://github.com/irisdynamics/EagleSDK_2.0 --recurse-submodules
+<code> git clone https://github.com/irisdynamics/EagleSDK_2.0 --recurse-submodules </code>
 
 Note: If you do a regular clone on this repo the submodules folder will be empty, you can populate them by running the following command in the git bash window
 git submodule update --init 
