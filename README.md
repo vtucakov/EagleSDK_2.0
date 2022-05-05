@@ -70,7 +70,6 @@ Navigate to the basic example found in source/EagleSDK_basic_example/EagleSDK_ba
 In the IDE:
 Change the sketchbook location to this repo's location <code>  File -> preferences  </code>
 Change the target to  <code> Tools->board-> select "Teensy 3.2 / 3.1" </code>
-Change the CPU speed  <code> Tools->CPU speed-> select "48 MHz" </code>
 From here, if everything is just right, the code can be verified (compiled) with CTRL+R or the check mark button
 With Teensyduino installed, verifying the code opens the Teensy.exe app and loads in the hex that was just build. 
 
