@@ -35,7 +35,7 @@ The PC and Eagle ground must be similar for USB communications to work. Only one
 ### Power Lugs
 The power lugs on the Eagle Controller can take an input voltage of 12 - 24 V. The supply can be an AC-DC converter or a battery system.
 Once the Eagle has been programmed with appropriate firmware it may be operated without a usb connection to a PC/IrisControls if it is powered throught the power lugs.
-If using an 
+If using an Orca Series 24 V motor, the motor's power and ground cables may be connected to the screw terminals opposite the power lugs.
 ### Back-power 
 The motors in some circumstances will act like generators, this can result in current being fed backwards to power lugs. Typically the level of back-power is low and power supplies or batteries can accommodate this. In situations where shaft or stator speeds get very high, some power supplies may go into protection. 
 
