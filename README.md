@@ -15,7 +15,7 @@ The package contains some example with source files and builds
 
 # Quickstart
 IrisControls4.exe, located in the IrisControls4 folder of this repo, is a Windows-based user-interface application used by Iris Dynamics devices to present controls and data over USB.
-Running the .exe will open an IrisControls app window, once the Eagle board is connected via USB to the PC, a drop down menu above the Connecting.. button will allow you to select the com port of the Eagle board. GUI elements will be populated by the firmware on the Eagle Controller once it becomes connected.  Moving the motor shaft should display it's position on the graph corresponding to it's connected port. Using the position or force button will put the motor into the corresponding mode and allow position targets or forces to be given to the motor.
+Running the .exe will open an IrisControls app window, once the Eagle board is connected via USB to the PC, a drop down menu above the Connecting.. button will allow you to select the com port of the Eagle board. GUI elements will be populated by the firmware on the Eagle Controller once it becomes connected.  Moving the motor shaft should display it's position on the graph corresponding to it's connected port. If the motor is powered and connected the title of the graph should turn green. Using the position or force button will put the motor into the corresponding mode and allow position targets or forces to be given to the motor.
 
 Other prebuilt examples can be loaded by following the instructions in "Using Pre-Built Firmware" 
 For modifying the firmware, follow the instructions in "Environment Setup", and find examples projects in the source folder. 
