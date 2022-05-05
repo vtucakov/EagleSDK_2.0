@@ -26,7 +26,7 @@ A wiring diagram for the Eagle is available in this repo, please note there is a
 ### The USB connectors 
 Currently, only USB Serial is enabled for PC-Eagle communications. Examples of receiving and sending serial messages are throughout the SDK. The IrisControls4 applications also uses the USB Serial link to provide the Eagle's GUI.
 
-To connect from the Eagle to a PC you will need to use either a micro USB type A or a USB type B cable. Ensure that they are data cables and not charging charging cables.
+To connect from the Eagle to a PC you will need to use either a micro USB type B or a USB type B cable. Ensure that they are data cables and not charging charging cables.
 USB micro: powers & grounds Eagle
 USB B	 : does not power & ground Eagle, must be powered using the "Power Lugs"
 
