@@ -10,7 +10,7 @@ Be aware that the shaft or motor will move during operation, and position your h
 This firmware will cause the motor to create forces and motion. Be very careful at all times. Ensure the shaft and motor are mounted in a safe location and not in danger of hitting people or property.
 
 ## Description
-The SDK firmware runs on an Eagle hardware development board and is meant to provide basic handshaking and communication Iris Orca motor. It also includes libraries to allow development of custom GUI interfaces 
+The SDK firmware runs on an Eagle hardware development board and is meant to provide basic handshaking and communication with an Orca motor using a MOBUS protocal that has been abstracted through the Orca API. It also includes libraries to allow development of custom GUI interfaces and serial communciation with the Eagle.
 The package contains some example with source files and builds 
 
 # Quickstart
