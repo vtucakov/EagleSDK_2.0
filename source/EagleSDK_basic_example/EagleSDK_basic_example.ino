@@ -35,8 +35,6 @@ Actuator::ConnectionConfig connection_config;
     order to handshake with the motor and establish a connection
 */
 void setup() {
-    gui.set_server_name("Basic Example");
-    gui.set_device_id("Eagle");
     /// This section is optional, if not added will default to 625000 bps and 80us
     connection_config.target_baud_rate_bps      = 780000;  //625000 //780000
     connection_config.target_delay_us           = 50;
