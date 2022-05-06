@@ -1,3 +1,9 @@
+/*
+    Simple starting point for custom programing.
+    Serial commands can be used to give force targets to the motor
+    GUI button to put the motor into sleep mode (electrical brake)
+    @author Rebecca McWilliam <rmcwilliam@irisdynamics.com>
+*/
 
 #include <iriscontrols4.h>  //iris controls 4 library (GUI Handling)
 #include <modbus_lib.h>  //modbus client library (UART communications with motors)

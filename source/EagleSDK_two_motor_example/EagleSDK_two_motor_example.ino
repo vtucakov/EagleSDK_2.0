@@ -1,5 +1,6 @@
 /*
-    Example of using the actuator object to create motor movement with either position control or force control
+    Example of using two actuator objects to create motor movement with either position control or force control
+    Graphs that give motor feedback
     Using gui elements panels and communication objects from the eagle sdk libraries
     @author Rebecca McWilliam <rmcwilliam@irisdynamics.com>
 */
