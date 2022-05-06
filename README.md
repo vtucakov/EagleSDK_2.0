@@ -69,8 +69,9 @@ Install Teensyduino (version 1.56): https://www.pjrc.com/teensy/td_download.html
 Navigate to the basic example found in source/EagleSDK_basic_example/EagleSDK_basic_example.ino 
 
 In the IDE:
-Change the sketchbook location to this repo's location <code>  File -> preferences  </code>
+Change the sketchbook location to the location of this folder <code>  File -> preferences -> sketchbook location : ../EagleSDK_2.0  </code>
 Change the target to  <code> Tools->board-> select "Teensy 3.2 / 3.1" </code>
+Change the CPU Speed to  <code> Tools->CPU speed-> select "48 MHz" </code>
 From here, if everything is just right, the code can be verified (compiled) with CTRL+R or the check mark button
 With Teensyduino installed, verifying the code automatically opens the Teensy.exe app and loads in the hex that was just built. 
 

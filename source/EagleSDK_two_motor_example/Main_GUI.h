@@ -39,7 +39,10 @@ class GUI : public IC4_k20 {
             motors(_motors)
             , motor_plot    {{motors[0], "Motor 1", 1, 19}  , {motors[1], "Motor 2", 16, 19}}      //initialize gui panels with row and column anchor points
         , motor_control {{motors[0], 3, 43}             , {motors[1], 18, 43}}                 //initialize gui panels with row and column anchor points
-        {}
+        {
+            set_server_name("Basic Example");
+            set_device_id("Eagle");    
+        }
 
         /*
             @brief Setup the gui panels
